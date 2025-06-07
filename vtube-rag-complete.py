@@ -20,8 +20,8 @@ import threading
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # API Keys
-YOUTUBE_API_KEY = 'AIzaSyBuuksoZSdSpga7JtEqfEw3ivfHwISwEMA'
-GEMINI_API_KEY = 'AIzaSyDtJc_rKh1iQLHL6xuZjZWBesbvREGwagY'
+YOUTUBE_API_KEY = 'Your Youtube Api Key'
+GEMINI_API_KEY = 'Your Gemini Api Key'
 
 SCREENED_WORDS = ["วิชาบังคับ", "วิชาเฉพาะ"]
 DEFINE_WORDS = {
@@ -327,7 +327,7 @@ def process_live_chat(channel_id, pdf_paths: List[str]):
 
 if __name__ == "__main__":
     try:
-        channel_id = "UC01KD3H6ymneOqVIP4bCPew" #รหัสช่อง
+        channel_id = "Your Chanel Id Youtube" #รหัสช่อง
         pdf_files = [  
             "control.pdf",
             "speci.pdf",
